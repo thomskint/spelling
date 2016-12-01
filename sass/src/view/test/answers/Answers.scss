@@ -1,0 +1,29 @@
+.answers-list{
+  height: 100%;
+
+  .x-simplelistitem {
+    width: 100%;
+    float: left;
+    .x-listitem-body {
+      padding: 0em !important;
+      height: 52px !important;
+      .x-innerhtml{
+        height: 50px !important;
+      }
+    }
+    .wrong, .right {
+      padding: 1em;
+      position: relative;
+    }
+    .wrong{
+      background-color: red;
+      height: inherit;
+    }
+    .right{
+      background-color: green;
+    }
+    .x-listitem-disclosure{
+      float: right;
+    }
+  }
+}
